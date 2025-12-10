@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Happy Birthday</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Happy Birthday">
+	<meta name="robots" content="index, follow" />
+	<link rel="author" href="https://plus.google.com/u/1/+SaptheshV/" /> 
+    <meta name="keywords" content="Birthday, Happy">
+
+    <meta property="og:type" content="E-Greeting" />
+    <meta property="og:image" content="favicon.ico" />
+    <meta property="og:description" content="Wish you a very Happy Birthday">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Caveat:wght@600&family=Great+Vibes&family=Parisienne&family=Yellowtail&family=Reenie+Beanie&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="loading.css">
+	<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet/less" href="cake.less">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
+
+	<style>
+		/* ---------- SPLASH SCREEN ---------- */
+				body, p {
+			font-family: 'Poppins', sans-serif;
+		}
+
+	.title   
+	     { 
+			font-family: 'Great Vibes', cursive; font-size: 62px; color: #ff6b9d; text-shadow: 0 0 20px #ff6b9d; 
+		 }
+	.subtitle
+	     { font-family: 'Parisienne', cursive; font-size: 34px; color: #a8edea; 
+		 }
+		#splash-screen {
+			background: linear-gradient(135deg, #1a0f17, #2c0f25, #3c1030);
+			color: white;
+			position: fixed;
+			inset: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			animation: fadeIn 1s ease-out;
+			z-index: 9999;
+			transition: opacity 1s ease-in-out;
+		}
+
+		#splash-screen.hide {
+			opacity: 0;
+			pointer-events: none;
+		}
+
+		@keyframes fadeIn {
+			from { opacity: 0; }
+			to { opacity: 1; }
+		}
+
+
+		.splash-text {
+			font-size: 32px;
+			animation: pop 1s ease-in-out infinite alternate;
+			text-align: center;
+		}
+
+		@keyframes pop {
+			0% { transform: scale(1); opacity: 0.7; }
+			100% { transform: scale(1.2); opacity: 1; }
+		}
+
+		@keyframes fadeOut {
+			0% { opacity: 1; }
+			100% { opacity: 0; visibility: hidden; }
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<!-- 🌟 STARTING SPLASH SCREEN ADDED HERE -->
+	<div id="splash-screen">
+		<h1 class="title">Heyy birthday girl!✨</h1>
+		<h1 class="subtitle">Here is a small Celebration</h1>
+		<!-- <p>Let's celebrate your birthday ✨</p> -->
+	</div>
+
+
+	<!-- 🌟 END SPLASH -->
+
+	<div class="loading"></div>
+
+	<audio class="song" controls loop>
+        <source src="final.mp3"></source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+
+    <div class="balloons text-center" id="b1">
+    	<h2 style="color:#F2B300;">M</h2>
+    </div>
+    <div class="balloons text-center" id="b2">
+    	<h2 style="color:#0719D4;">A</h2>
+    </div>
+	<div class="balloons text-center" id="b3">
+    	<h2 style="color:#D14D39;">N</h2>
+    </div>
+	<div class="balloons text-center" id="b4">
+    	<h2 style="color:#8FAD00;">A</h2>
+    </div>
+	<div class="balloons text-center" id="b5">
+    	<h2 style="color:#8377E4;">S</h2>
+    </div>
+    <div class="balloons text-center" id="b6">
+    	<h2 style="color:#99C96A;">A</h2>
+    </div>
+    <div class="balloons text-center" id="b7">
+    	<h2 style="color:#20CFB4;">✨</h2>
+    </div>
+
+    <img src="Balloon-Border.png" width="100%" class="balloon-border">
+ 
+
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_yellow"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_red"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_blue"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_green"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_pink"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_orange"></div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<img src="banner.png" class="bannar">
+			</div>
+		</div>
+
+		<div class="row cake-cover">
+			<div class="col-md-12 texr-center">
+				<div class="cake">
+				  <div class="velas">
+				    <div class="fuego"></div>
+				    <div class="fuego"></div>
+				    <div class="fuego"></div>
+				    <div class="fuego"></div>
+				    <div class="fuego"></div>
+				  </div>
+				  <div class="cobertura"></div>
+				  <div class="bizcocho"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row message">
+			<div class="col-md-12">
+				<p>Finally the day has come...</p>
+				<p>Today is 12 — your birthday</p>
+				<p>and I have a doubt...</p>
+				<p>Is 12 your lucky number?</p>
+				<p>Because your birthday...</p>
+				<p>Your birth month...</p>
+				<p>Your roll number...</p>
+				<p>and even our bus number...</p>
+				<p>Everything is 12 😄</p>
+				<p>May be...</p>
+				<p>You will get a 12LPA soon 👀✨</p>
+				<p>However...</p>
+				<p>I wish you all the success in life</p>
+				<p>May you reach the top position this year</p>
+				<p>Maybe an Civil Engineer...</p>
+				<p>OR even the CEO of a company</p>
+				<p>And hey...</p>
+				<p>Don’t forget to give me a small job</p>
+				<p>when you become a CEO 😆</p>
+				<p>Keep smiling always</p>
+				<p>I made this whole website...</p>
+				<p>only to make your day brighter</p>
+				<p>And bring a smile to your face</p>
+				<p>(party elago estav anuko... adhi vere vishyam😆)</p>
+				<p>Lastly...</p>
+				<p>once again...</p>
+				<p>Many more happy returns of the day Leader🎉✨</p>
+				<p><strong></strong></p>
+			</div>
+		</div>
+
+		<div class="navbar navbar-fixed-bottom">
+			<div class="row">
+				<div class="col-md-6 text-center col-md-offset-3">
+					<button class="btn btn-primary" id="turn_on">Turn On Lights</button>
+					<button class="btn btn-primary" id="play">Play Music</button>
+					<button class="btn btn-primary" id="bannar_coming">Let's Decorate</button>
+					<button class="btn btn-primary" id="balloons_flying">Balloons Kavala</button>
+					<button class="btn btn-primary" id="cake_fadein">Mari cake</button>
+					<button class="btn btn-primary" id="light_candle">Light the candle without lighter</button>
+					<button class="btn btn-primary" id="wish_message">Once Again 👆</button>
+					<button class="btn btn-primary" id="story">A mesage for you</button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script src="effect.js"></script>
+
+	<script>
+	setTimeout(() => {
+		document.getElementById("splash-screen").classList.add("hide");
+
+		setTimeout(() => {
+			document.getElementById("splash-screen").style.display = "none";
+		}, 1000);
+
+	}, 5000); // Change this: 5000 = 5 seconds
+	</script>
+
+</body>
+</html>
