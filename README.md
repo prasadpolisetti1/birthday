@@ -1,23 +1,12 @@
 <h1 align="center"> 🎂 Customizable Birthday Web Template 🎂 </h1>
 
 
-[![Stars](https://img.shields.io/github/stars/sapthesh/Birthday?style=for-the-badge)](https://github.com/sapthesh/Birthday/stargazers)
-[![Forks](https://img.shields.io/github/forks/sapthesh/Birthday?style=for-the-badge)](https://github.com/sapthesh/Birthday/network/members)
-[![License](https://img.shields.io/github/license/sapthesh/Birthday?style=for-the-badge)](LICENSE)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://sapthesh.github.io/Birthday/)
-<a href="https://hits.sh/github.com/sapthesh/Birthday/"><img alt="Hits" src="https://hits.sh/github.com/sapthesh/Birthday.svg?style=for-the-badge"/></a>
-<a href="https://hits.sh/github.com/sapthesh/Birthday/"><img alt="Hits" src="https://hits.sh/github.com/sapthesh/Birthday.svg?view=today-total&style=for-the-badge&color=fe7d37"/></a>
-  
+
 
 
 
 A versatile and user-friendly website template designed to celebrate birthdays in a fun and personalized way. This project features a beautiful animation to wish your loved ones a happy birthday.
 
-![Birthday Animation Screenshot](https://raw.githubusercontent.com/sapthesh/Birthday/master/b1.png)
-![Birthday Animation Screenshot](https://raw.githubusercontent.com/sapthesh/Birthday/master/b2.png)
-![Birthday Animation Screenshot](https://raw.githubusercontent.com/sapthesh/Birthday/master/b3.png)
-![Birthday Animation Screenshot](https://raw.githubusercontent.com/sapthesh/Birthday/master/b4.png)
-![Birthday Animation Screenshot](https://raw.githubusercontent.com/sapthesh/Birthday/master/b5.png)
 
 ## 📜 Overview
 
@@ -56,7 +45,7 @@ You will need either Python or Node.js installed on your machine to run a local 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/sapthesh/Birthday.git](https://github.com/sapthesh/Birthday.git)
+    git clone [https://github.com/prasadpolisetti1/birthday.git]
     ```
 2.  **Navigate to the project directory:**
     ```bash
@@ -92,8 +81,3 @@ For example, to change the name, find the following line in `index.html` and rep
 ```html
 <h1 class="happy-birthday">Happy Birthday Your-Name</h1>
 ```
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=sapthesh/Birthday&type=Date)](https://www.star-history.com/#sapthesh/Birthday&Date)
-"# birthday" 
